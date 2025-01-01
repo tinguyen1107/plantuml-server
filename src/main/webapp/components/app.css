@@ -116,11 +116,11 @@ select {
   text-align: center;
 }
 .main {
-  margin: 1% 5%;
+  margin: 5px 5px;
   z-index: 1;
 }
 .main > div {
-  margin: 0 1.75%;
+  margin: 0 5px;
 }
 .main > div:first-child {
   margin-left: 0;
@@ -142,6 +142,9 @@ select {
   .main > div:last-child {
     margin-bottom: 0;
   }
+}
+.previewer {
+  flex: 1.5
 }
 .footer p {
   background-color: var(--footer-bg-color);

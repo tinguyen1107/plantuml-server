@@ -6,11 +6,6 @@
   <div class="previewer-main flex-main">
     <%@ include file="/components/preview/diagram/preview-diagram.jsp" %>
   </div>
-  <% if (showSocialButtons) { %>
-    <div>
-      <%@ include file="/components/preview/social-buttons.jsp" %>
-    </div>
-  <% } %>
   <!-- global modals -->
   <%@ include file="/components/modals/settings/settings.jsp" %>
 </div>
